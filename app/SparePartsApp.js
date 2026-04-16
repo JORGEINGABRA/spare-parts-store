@@ -18,7 +18,7 @@ const initialProducts = [
     id: 3,
     name: "Llanta 2.50x10",
     price: 70,
-    image: "/images/produtcs/tire.png",
+    image: "/images/products/tire.png",
   },
   {
     id: 4,
