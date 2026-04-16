@@ -20,6 +20,12 @@ const initialProducts = [
     price: 70,
     image: "/images/produtcs/tire.png",
   },
+  {
+    id: 4,
+    name: "Controlador Bicimoto 48V 350W",
+    price: 170,
+    image: "/images/products/controller.png",
+  },
 ];
 
 export default function SparePartsApp() {
