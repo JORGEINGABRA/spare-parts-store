@@ -6,19 +6,19 @@ const initialProducts = [
     id: 1,
     name: "Bateria Litio 48V 12Ah",
     price: 800,
-    image: "/battery.png",
+    image: "/images/products/battery.png",
   },
   {
     id: 2,
     name: "Motor Electrico Citycoco 1500W",
     price: 1200,
-    image: "/motor.png",
+    image: "/images/products/motor.png",
   },
   {
     id: 3,
     name: "Llanta 2.50x10",
     price: 70,
-    image: "/tire.png",
+    image: "/images/produtcs/tire.png",
   },
 ];
 
