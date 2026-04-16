@@ -4,7 +4,7 @@ import { useState } from "react";
 const initialProducts = [
   {
     id: 1,
-    name: "Batteria 60V 20Ah",
+    name: "Bateria Litio 48V 12Ah",
     price: 800,
     image: "/battery.png",
   },
