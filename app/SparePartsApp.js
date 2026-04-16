@@ -11,7 +11,7 @@ const initialProducts = [
   {
     id: 2,
     name: "Motor Electrico Citycoco 1500W",
-    price: 800,
+    price: 1200,
     image: "/motor.png",
   },
   {
