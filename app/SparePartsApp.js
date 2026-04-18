@@ -16,7 +16,7 @@ const initialProducts = [
   },
   {
     id: 3,
-    name: "Llanta 2.50x10",
+    name: "Llanta Bicimoto 2.50x14",
     price: 70,
     image: "/images/products/tire.png",
   },
@@ -93,7 +93,7 @@ export default function SparePartsApp() {
             Agregar al Carro
           </button>
         </div>
-      ))}
+      ))} 
     </div>
 
     <h2 className="text-2xl font-bold mt-8">Cart</h2>
