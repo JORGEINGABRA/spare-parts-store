@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://repuestosbicimoto-tacna.vercel.app"),
   title: "Repuestos BiciMoto Tacna",
   description: "Venta de repuestos y accesorios para motos eléctricas en Tacna",
   openGraph: {
@@ -27,7 +28,6 @@ export const metadata = {
     ],
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
