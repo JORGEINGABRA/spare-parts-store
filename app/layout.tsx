@@ -21,7 +21,7 @@ export const metadata = {
     description: "Compra llantas, baterías y más para motos eléctricas",
     images: [
       {
-        url: "/images/preview.png",
+        url: "/images/logo.png",
         width: 1200,
         height: 630,
       },
