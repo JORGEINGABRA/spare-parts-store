@@ -96,22 +96,34 @@ export default function SparePartsApp() {
     />
 
     <div className="flex gap-6 flex-wrap">
-      {filteredProducts.map((product) => (
-        <div
-          key={product.id}
-          className="bg-gray-900 p-4 rounded-xl shadow-md w-48"
-        >
+      {filteredProducts.map((product) => {
+        const phoneNumber = "51985776343";
+
+        const message = `Hola, estoy interesado en ${product.name} - S/${product.price}`;
+        const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        
+        return (
+        <div key={product.id}
+          className="bg-gray-900 p-4 rounded-xl shadow-md w-48">
           <img src={product.image} className="w-full h-32 object-cover mb-2" />
           <h2 className="font-bold">{product.name}</h2>
           <p className="text-green-600 font-semibold">{formatPrice(product.price)}</p>
+          
           <button
             className="mt-2 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
             onClick={() => addToCart(product)}
           >
             Agregar al Carro
           </button>
+          
+          <a href={whatsappLink} target="_blank">
+            <button className="mt-2 bg-green-500 text-white px-3 py-1">
+              Comprar por WhatsApp
+            </button>
+          </a>
         </div>
-      ))} 
+      );
+    })}
     </div>
 
     <h2 className="text-2xl font-bold mt-8">Cart</h2>
