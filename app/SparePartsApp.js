@@ -38,6 +38,12 @@ const initialProducts = [
     price: 100,
     image: "/images/products/motoscooter-tire.png",
   },
+  {
+    id: 7,
+    name: "Espejo Bicimoto x2 (1 par)",
+    price: 50,
+    image: "/images/products/small-mirror.png",
+  },
 ];
 
 export default function SparePartsApp() {
