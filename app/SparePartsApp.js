@@ -26,6 +26,12 @@ const initialProducts = [
     price: 170,
     image: "/images/products/controller.png",
   },
+  {
+    id: 5,
+    name: "Llanta Citycoco",
+    price: 220,
+    image: "/images/products/citycoco-tire.png",
+  },
 ];
 
 export default function SparePartsApp() {
