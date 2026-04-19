@@ -32,6 +32,12 @@ const initialProducts = [
     price: 220,
     image: "/images/products/citycoco-tire.png",
   },
+  {
+    id: 6,
+    name: "Llanta Moto Scooter 3.00x14",
+    price: 100,
+    image: "/images/products/motoscooter-tire.png",
+  },
 ];
 
 export default function SparePartsApp() {
